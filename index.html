@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="assets/icons/apple-touch-icon.png"
+  />
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<title>Javier Rivera | Desarrollador Web</title>
+</head>
+<body>
+
+    <nav>
+        <h1>Javier Rivera</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">Sobre mi</a></li>
+          <li><a href="#skills" class="nav-link">Habilidades</a></li>
+          <li><a href="#projects" class="nav-link">Poyectos</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="bar-menu" id="bar-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+           <ion-icon class="times" name="close-outline"></ion-icon>
+        </button>
+      </nav>
+
+      <section class="intro" id="about">
+        <img
+          src="assets/images/OIP.jpg"
+          alt="Javier Rivera"
+          
+          class="intro-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">Acerca de mi</h2>
+          <p class="bio-text">
+            Mi nombre es Javier Rivera...
+          </p>
+        </div>
+      </section>  
+
+      <section class="more-about">
+        <h2>Mas Acerca de Mi</h2>
+        <p>
+        habilidades sociales?...
+        </p>
+        <p>
+          habilidades blandas...
+        </p>
+        <p>
+        habilidades duras
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-html-5.svg"
+              alt=""
+              
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-javascript.svg"
+              alt=""
+              
+              class="icon icon-card"
+            />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-bootstrap.svg"
+              alt=""
+              
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-react-native.svg"
+              alt=""
+              
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-git.svg"
+              alt=""
+              
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+  
+     
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Mis proyectos Recientes</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assets/images/Controldeclinica.PNG"
+              alt="control"
+              
+              class="project-pic"
+            />
+            <h3 class="project-title">Control Para Clinica</h3>
+            <p class="project-details">
+             Es un control de clinica en linea para gestion de los pacient
+             utilizando una base de datos en la nube y asi proporcionar una
+             herramienta a los medicos sobre las citas programadas.
+            </p>
+            <a href="#" target="_blank" class="project-link">Miralo Aca</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/"
+              alt=""
+              
+              class="project-pic"
+            />
+            <h3 class="project-title">Sin proyecto</h3>
+            <p class="project-details">
+         Sin informacion
+            </p>
+            <a href="#" target="_blank" class="project-link">Miralo aqui</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/"
+              alt=""
+              
+              class="project-pic"
+            />
+            <h3 class="project-title">Sin Nombre</h3>
+            <p class="project-details">
+          Sin informacion
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="contact" id="contact">
+        <h2>Contacta conmigo</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylnggw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="socials">
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-twitter-circled.gif"
+            alt="Twitter"
+            
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-instagram.gif"
+            alt="Instagram"
+            
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+        /></a>
+      </div>
+
+      <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <footer>
+      <p class="copy">&copy; </p>
+      <p class="copy">
+        Built with ; by
+        <a href="" target="_blank"
+          ></a
+        >
+      </p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</body>
+</html>
